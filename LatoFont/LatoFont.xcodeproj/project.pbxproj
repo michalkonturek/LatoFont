@@ -30,6 +30,7 @@
 		84ADFC2E19374E77006A4382 /* Lato-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 84ADFC2419374E77006A4382 /* Lato-Light.ttf */; };
 		84ADFC2F19374E77006A4382 /* Lato-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 84ADFC2519374E77006A4382 /* Lato-LightItalic.ttf */; };
 		84ADFC3019374E77006A4382 /* Lato-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 84ADFC2619374E77006A4382 /* Lato-Regular.ttf */; };
+		84ADFC3219374FB0006A4382 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84ADFC3119374FB0006A4382 /* CoreText.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +72,7 @@
 		84ADFC2419374E77006A4382 /* Lato-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Light.ttf"; sourceTree = "<group>"; };
 		84ADFC2519374E77006A4382 /* Lato-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-LightItalic.ttf"; sourceTree = "<group>"; };
 		84ADFC2619374E77006A4382 /* Lato-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Regular.ttf"; sourceTree = "<group>"; };
+		84ADFC3119374FB0006A4382 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84ADFC3219374FB0006A4382 /* CoreText.framework in Frameworks */,
 				84ADFBEC19374A2F006A4382 /* CoreGraphics.framework in Frameworks */,
 				84ADFBEE19374A2F006A4382 /* UIKit.framework in Frameworks */,
 				84ADFBEA19374A2F006A4382 /* Foundation.framework in Frameworks */,
@@ -119,6 +122,7 @@
 		84ADFBE819374A2F006A4382 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				84ADFC3119374FB0006A4382 /* CoreText.framework */,
 				84ADFBE919374A2F006A4382 /* Foundation.framework */,
 				84ADFBEB19374A2F006A4382 /* CoreGraphics.framework */,
 				84ADFBED19374A2F006A4382 /* UIKit.framework */,
