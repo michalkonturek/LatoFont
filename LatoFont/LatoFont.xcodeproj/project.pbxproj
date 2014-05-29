@@ -19,6 +19,7 @@
 		84ADFC0519374A2F006A4382 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84ADFBED19374A2F006A4382 /* UIKit.framework */; };
 		84ADFC0D19374A2F006A4382 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 84ADFC0B19374A2F006A4382 /* InfoPlist.strings */; };
 		84ADFC0F19374A2F006A4382 /* LatoFontTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84ADFC0E19374A2F006A4382 /* LatoFontTests.m */; };
+		84ADFC1B19374A76006A4382 /* UIFont+Lato.m in Sources */ = {isa = PBXBuildFile; fileRef = 84ADFC1A19374A76006A4382 /* UIFont+Lato.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,8 @@
 		84ADFC0A19374A2F006A4382 /* LatoFontTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LatoFontTests-Info.plist"; sourceTree = "<group>"; };
 		84ADFC0C19374A2F006A4382 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		84ADFC0E19374A2F006A4382 /* LatoFontTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LatoFontTests.m; sourceTree = "<group>"; };
+		84ADFC1919374A76006A4382 /* UIFont+Lato.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+Lato.h"; sourceTree = "<group>"; };
+		84ADFC1A19374A76006A4382 /* UIFont+Lato.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+Lato.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +110,7 @@
 		84ADFBEF19374A2F006A4382 /* LatoFont */ = {
 			isa = PBXGroup;
 			children = (
+				84ADFC1819374A55006A4382 /* Source */,
 				84ADFBF819374A2F006A4382 /* AppDelegate.h */,
 				84ADFBF919374A2F006A4382 /* AppDelegate.m */,
 				84ADFBFB19374A2F006A4382 /* Images.xcassets */,
@@ -142,6 +146,16 @@
 				84ADFC0B19374A2F006A4382 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		84ADFC1819374A55006A4382 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				84ADFC1919374A76006A4382 /* UIFont+Lato.h */,
+				84ADFC1A19374A76006A4382 /* UIFont+Lato.m */,
+			);
+			name = Source;
+			path = ../../Source;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -240,6 +254,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				84ADFBFA19374A2F006A4382 /* AppDelegate.m in Sources */,
+				84ADFC1B19374A76006A4382 /* UIFont+Lato.m in Sources */,
 				84ADFBF619374A2F006A4382 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

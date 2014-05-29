@@ -10,4 +10,6 @@
 
 @interface UIFont (Lato)
 
+//+ (instancetype)latoFontOfSize
+
 @end
