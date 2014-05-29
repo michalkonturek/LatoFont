@@ -20,6 +20,16 @@
 		84ADFC0D19374A2F006A4382 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 84ADFC0B19374A2F006A4382 /* InfoPlist.strings */; };
 		84ADFC0F19374A2F006A4382 /* LatoFontTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84ADFC0E19374A2F006A4382 /* LatoFontTests.m */; };
 		84ADFC1B19374A76006A4382 /* UIFont+Lato.m in Sources */ = {isa = PBXBuildFile; fileRef = 84ADFC1A19374A76006A4382 /* UIFont+Lato.m */; };
+		84ADFC2719374E77006A4382 /* Lato-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 84ADFC1D19374E77006A4382 /* Lato-Black.ttf */; };
+		84ADFC2819374E77006A4382 /* Lato-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 84ADFC1E19374E77006A4382 /* Lato-BlackItalic.ttf */; };
+		84ADFC2919374E77006A4382 /* Lato-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 84ADFC1F19374E77006A4382 /* Lato-Bold.ttf */; };
+		84ADFC2A19374E77006A4382 /* Lato-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 84ADFC2019374E77006A4382 /* Lato-BoldItalic.ttf */; };
+		84ADFC2B19374E77006A4382 /* Lato-Hairline.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 84ADFC2119374E77006A4382 /* Lato-Hairline.ttf */; };
+		84ADFC2C19374E77006A4382 /* Lato-HairlineItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 84ADFC2219374E77006A4382 /* Lato-HairlineItalic.ttf */; };
+		84ADFC2D19374E77006A4382 /* Lato-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 84ADFC2319374E77006A4382 /* Lato-Italic.ttf */; };
+		84ADFC2E19374E77006A4382 /* Lato-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 84ADFC2419374E77006A4382 /* Lato-Light.ttf */; };
+		84ADFC2F19374E77006A4382 /* Lato-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 84ADFC2519374E77006A4382 /* Lato-LightItalic.ttf */; };
+		84ADFC3019374E77006A4382 /* Lato-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 84ADFC2619374E77006A4382 /* Lato-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +61,16 @@
 		84ADFC0E19374A2F006A4382 /* LatoFontTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LatoFontTests.m; sourceTree = "<group>"; };
 		84ADFC1919374A76006A4382 /* UIFont+Lato.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+Lato.h"; sourceTree = "<group>"; };
 		84ADFC1A19374A76006A4382 /* UIFont+Lato.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+Lato.m"; sourceTree = "<group>"; };
+		84ADFC1D19374E77006A4382 /* Lato-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Black.ttf"; sourceTree = "<group>"; };
+		84ADFC1E19374E77006A4382 /* Lato-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-BlackItalic.ttf"; sourceTree = "<group>"; };
+		84ADFC1F19374E77006A4382 /* Lato-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Bold.ttf"; sourceTree = "<group>"; };
+		84ADFC2019374E77006A4382 /* Lato-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-BoldItalic.ttf"; sourceTree = "<group>"; };
+		84ADFC2119374E77006A4382 /* Lato-Hairline.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Hairline.ttf"; sourceTree = "<group>"; };
+		84ADFC2219374E77006A4382 /* Lato-HairlineItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-HairlineItalic.ttf"; sourceTree = "<group>"; };
+		84ADFC2319374E77006A4382 /* Lato-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Italic.ttf"; sourceTree = "<group>"; };
+		84ADFC2419374E77006A4382 /* Lato-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Light.ttf"; sourceTree = "<group>"; };
+		84ADFC2519374E77006A4382 /* Lato-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-LightItalic.ttf"; sourceTree = "<group>"; };
+		84ADFC2619374E77006A4382 /* Lato-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Regular.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,11 +171,29 @@
 		84ADFC1819374A55006A4382 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				84ADFC1C19374E77006A4382 /* Fonts */,
 				84ADFC1919374A76006A4382 /* UIFont+Lato.h */,
 				84ADFC1A19374A76006A4382 /* UIFont+Lato.m */,
 			);
 			name = Source;
 			path = ../../Source;
+			sourceTree = "<group>";
+		};
+		84ADFC1C19374E77006A4382 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				84ADFC1D19374E77006A4382 /* Lato-Black.ttf */,
+				84ADFC1E19374E77006A4382 /* Lato-BlackItalic.ttf */,
+				84ADFC1F19374E77006A4382 /* Lato-Bold.ttf */,
+				84ADFC2019374E77006A4382 /* Lato-BoldItalic.ttf */,
+				84ADFC2119374E77006A4382 /* Lato-Hairline.ttf */,
+				84ADFC2219374E77006A4382 /* Lato-HairlineItalic.ttf */,
+				84ADFC2319374E77006A4382 /* Lato-Italic.ttf */,
+				84ADFC2419374E77006A4382 /* Lato-Light.ttf */,
+				84ADFC2519374E77006A4382 /* Lato-LightItalic.ttf */,
+				84ADFC2619374E77006A4382 /* Lato-Regular.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,7 +271,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84ADFC2F19374E77006A4382 /* Lato-LightItalic.ttf in Resources */,
+				84ADFC2819374E77006A4382 /* Lato-BlackItalic.ttf in Resources */,
+				84ADFC2B19374E77006A4382 /* Lato-Hairline.ttf in Resources */,
+				84ADFC2C19374E77006A4382 /* Lato-HairlineItalic.ttf in Resources */,
+				84ADFC2919374E77006A4382 /* Lato-Bold.ttf in Resources */,
 				84ADFBF419374A2F006A4382 /* InfoPlist.strings in Resources */,
+				84ADFC2E19374E77006A4382 /* Lato-Light.ttf in Resources */,
+				84ADFC3019374E77006A4382 /* Lato-Regular.ttf in Resources */,
+				84ADFC2A19374E77006A4382 /* Lato-BoldItalic.ttf in Resources */,
+				84ADFC2719374E77006A4382 /* Lato-Black.ttf in Resources */,
+				84ADFC2D19374E77006A4382 /* Lato-Italic.ttf in Resources */,
 				84ADFBFC19374A2F006A4382 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
