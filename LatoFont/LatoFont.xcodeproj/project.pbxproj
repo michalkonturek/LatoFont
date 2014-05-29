@@ -31,6 +31,8 @@
 		84ADFC2F19374E77006A4382 /* Lato-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 84ADFC2519374E77006A4382 /* Lato-LightItalic.ttf */; };
 		84ADFC3019374E77006A4382 /* Lato-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 84ADFC2619374E77006A4382 /* Lato-Regular.ttf */; };
 		84ADFC3219374FB0006A4382 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84ADFC3119374FB0006A4382 /* CoreText.framework */; };
+		84ADFC371937579B006A4382 /* ExampleVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 84ADFC351937579B006A4382 /* ExampleVC.m */; };
+		84ADFC381937579B006A4382 /* ExampleVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84ADFC361937579B006A4382 /* ExampleVC.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +75,9 @@
 		84ADFC2519374E77006A4382 /* Lato-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-LightItalic.ttf"; sourceTree = "<group>"; };
 		84ADFC2619374E77006A4382 /* Lato-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Regular.ttf"; sourceTree = "<group>"; };
 		84ADFC3119374FB0006A4382 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		84ADFC341937579B006A4382 /* ExampleVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExampleVC.h; sourceTree = "<group>"; };
+		84ADFC351937579B006A4382 /* ExampleVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleVC.m; sourceTree = "<group>"; };
+		84ADFC361937579B006A4382 /* ExampleVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ExampleVC.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +139,7 @@
 		84ADFBEF19374A2F006A4382 /* LatoFont */ = {
 			isa = PBXGroup;
 			children = (
+				84ADFC331937575D006A4382 /* Example */,
 				84ADFC1819374A55006A4382 /* Source */,
 				84ADFBF819374A2F006A4382 /* AppDelegate.h */,
 				84ADFBF919374A2F006A4382 /* AppDelegate.m */,
@@ -198,6 +204,16 @@
 				84ADFC2619374E77006A4382 /* Lato-Regular.ttf */,
 			);
 			path = Fonts;
+			sourceTree = "<group>";
+		};
+		84ADFC331937575D006A4382 /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				84ADFC341937579B006A4382 /* ExampleVC.h */,
+				84ADFC351937579B006A4382 /* ExampleVC.m */,
+				84ADFC361937579B006A4382 /* ExampleVC.xib */,
+			);
+			name = Example;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -287,6 +303,7 @@
 				84ADFC2719374E77006A4382 /* Lato-Black.ttf in Resources */,
 				84ADFC2D19374E77006A4382 /* Lato-Italic.ttf in Resources */,
 				84ADFBFC19374A2F006A4382 /* Images.xcassets in Resources */,
+				84ADFC381937579B006A4382 /* ExampleVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,6 +325,7 @@
 				84ADFBFA19374A2F006A4382 /* AppDelegate.m in Sources */,
 				84ADFC1B19374A76006A4382 /* UIFont+Lato.m in Sources */,
 				84ADFBF619374A2F006A4382 /* main.m in Sources */,
+				84ADFC371937579B006A4382 /* ExampleVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
