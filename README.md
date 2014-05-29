@@ -11,7 +11,12 @@ Brings Lato font to iOS.
 
 Source code of this project is available under the standard MIT license. Please see [the license file][LICENSE].
 
-[LICENSE]:https://github.com/michalkonturek/GraphKit/blob/master/LICENSE
+#### Lato Font
+
+Copyright (c) 2010-2011 by tyPoland Lukasz Dziedzic with Reserved Font Name "Lato". This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is copied below, and is also available with a FAQ at: [http://scripts.sil.org/OFL][OFL]
+
+[LICENSE]:https://github.com/michalkonturek/GraphKit/blob/master/LICENSE]
+[OFL]:http://scripts.sil.org/OFL
 
 
 ## Usage
