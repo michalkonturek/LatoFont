@@ -4,20 +4,21 @@
 [![License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat)](https://github.com/michalkonturek/LatoFont/blob/master/LICENSE)
 [![CocoaPods](https://img.shields.io/cocoapods/v/LatoFont.svg?style=flat)](https://github.com/michalkonturek/LatoFont)
 
-Brings Lato font to iOS.
+Brings [Lato][LATO] font to iOS.
 
 
 ## License
 
 Source code of this project is available under the standard MIT license. Please see [the license file][LICENSE].
 
-#### Lato Font
-
-Copyright (c) 2010-2011 by tyPoland Lukasz Dziedzic with Reserved Font Name "Lato". This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is copied below, and is also available with a FAQ at: [http://scripts.sil.org/OFL][OFL]
-
 [LICENSE]:https://github.com/michalkonturek/GraphKit/blob/master/LICENSE]
-[OFL]:http://scripts.sil.org/OFL
 
+[Lukasz Dziedzic][LD] holds copyright to the [Lato][LATO] font which is licensed under the [SIL Open Font License][OFL].
+
+
+[LD]:https://plus.google.com/106163021290874968147/about
+[OFL]:http://scripts.sil.org/OFL
+[LATO]:https://www.google.com/fonts/specimen/Lato
 
 ## Usage
 
