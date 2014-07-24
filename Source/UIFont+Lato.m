@@ -27,8 +27,8 @@ static NSArray *fonts = nil;
               @"Lato-BlackItalic"
               ];
 
-    NSString* bundlePath = [[NSBundle mainBundle] pathForResource:@"LatoFont" ofType:@"bundle"];
-    NSBundle* bundleWithFonts = [NSBundle bundleWithPath:bundlePath];
+    NSString *bundlePath = [[NSBundle mainBundle] pathForResource:@"LatoFont" ofType:@"bundle"];
+    NSBundle *bundleWithFonts = [NSBundle bundleWithPath:bundlePath];
 
     for (id font in fonts) {
         NSURL *url = [bundleWithFonts URLForResource:font withExtension:@"ttf"];
