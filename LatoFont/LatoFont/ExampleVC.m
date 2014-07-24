@@ -8,7 +8,7 @@
 
 #import "ExampleVC.h"
 
-#import "UIFont+Lato.h"
+#import <LatoFont/UIFont+Lato.h>
 
 @implementation ExampleVC
 

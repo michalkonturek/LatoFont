@@ -1,480 +1,1115 @@
-// !$*UTF8*$!
-{
-	archiveVersion = 1;
-	classes = {
-	};
-	objectVersion = 46;
-	objects = {
-
-/* Begin PBXBuildFile section */
-		84ADFBEA19374A2F006A4382 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84ADFBE919374A2F006A4382 /* Foundation.framework */; };
-		84ADFBEC19374A2F006A4382 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84ADFBEB19374A2F006A4382 /* CoreGraphics.framework */; };
-		84ADFBEE19374A2F006A4382 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84ADFBED19374A2F006A4382 /* UIKit.framework */; };
-		84ADFBF419374A2F006A4382 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 84ADFBF219374A2F006A4382 /* InfoPlist.strings */; };
-		84ADFBF619374A2F006A4382 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84ADFBF519374A2F006A4382 /* main.m */; };
-		84ADFBFA19374A2F006A4382 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84ADFBF919374A2F006A4382 /* AppDelegate.m */; };
-		84ADFBFC19374A2F006A4382 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84ADFBFB19374A2F006A4382 /* Images.xcassets */; };
-		84ADFC0319374A2F006A4382 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84ADFC0219374A2F006A4382 /* XCTest.framework */; };
-		84ADFC0419374A2F006A4382 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84ADFBE919374A2F006A4382 /* Foundation.framework */; };
-		84ADFC0519374A2F006A4382 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84ADFBED19374A2F006A4382 /* UIKit.framework */; };
-		84ADFC0D19374A2F006A4382 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 84ADFC0B19374A2F006A4382 /* InfoPlist.strings */; };
-		84ADFC0F19374A2F006A4382 /* LatoFontTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84ADFC0E19374A2F006A4382 /* LatoFontTests.m */; };
-		84ADFC3219374FB0006A4382 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84ADFC3119374FB0006A4382 /* CoreText.framework */; };
-		84ADFC371937579B006A4382 /* ExampleVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 84ADFC351937579B006A4382 /* ExampleVC.m */; };
-		84ADFC381937579B006A4382 /* ExampleVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84ADFC361937579B006A4382 /* ExampleVC.xib */; };
-/* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		84ADFC0619374A2F006A4382 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 84ADFBDE19374A2F006A4382 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 84ADFBE519374A2F006A4382;
-			remoteInfo = LatoFont;
-		};
-/* End PBXContainerItemProxy section */
-
-/* Begin PBXFileReference section */
-		84ADFBE619374A2F006A4382 /* LatoFont.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LatoFont.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		84ADFBE919374A2F006A4382 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		84ADFBEB19374A2F006A4382 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		84ADFBED19374A2F006A4382 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		84ADFBF119374A2F006A4382 /* LatoFont-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LatoFont-Info.plist"; sourceTree = "<group>"; };
-		84ADFBF319374A2F006A4382 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		84ADFBF519374A2F006A4382 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		84ADFBF719374A2F006A4382 /* LatoFont-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LatoFont-Prefix.pch"; sourceTree = "<group>"; };
-		84ADFBF819374A2F006A4382 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		84ADFBF919374A2F006A4382 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		84ADFBFB19374A2F006A4382 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		84ADFC0119374A2F006A4382 /* LatoFontTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LatoFontTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		84ADFC0219374A2F006A4382 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		84ADFC0A19374A2F006A4382 /* LatoFontTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LatoFontTests-Info.plist"; sourceTree = "<group>"; };
-		84ADFC0C19374A2F006A4382 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		84ADFC0E19374A2F006A4382 /* LatoFontTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LatoFontTests.m; sourceTree = "<group>"; };
-		84ADFC3119374FB0006A4382 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
-		84ADFC341937579B006A4382 /* ExampleVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExampleVC.h; sourceTree = "<group>"; };
-		84ADFC351937579B006A4382 /* ExampleVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleVC.m; sourceTree = "<group>"; };
-		84ADFC361937579B006A4382 /* ExampleVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ExampleVC.xib; sourceTree = "<group>"; };
-/* End PBXFileReference section */
-
-/* Begin PBXFrameworksBuildPhase section */
-		84ADFBE319374A2F006A4382 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				84ADFC3219374FB0006A4382 /* CoreText.framework in Frameworks */,
-				84ADFBEC19374A2F006A4382 /* CoreGraphics.framework in Frameworks */,
-				84ADFBEE19374A2F006A4382 /* UIKit.framework in Frameworks */,
-				84ADFBEA19374A2F006A4382 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		84ADFBFE19374A2F006A4382 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				84ADFC0319374A2F006A4382 /* XCTest.framework in Frameworks */,
-				84ADFC0519374A2F006A4382 /* UIKit.framework in Frameworks */,
-				84ADFC0419374A2F006A4382 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXFrameworksBuildPhase section */
-
-/* Begin PBXGroup section */
-		84ADFBDD19374A2F006A4382 = {
-			isa = PBXGroup;
-			children = (
-				84ADFBEF19374A2F006A4382 /* LatoFont */,
-				84ADFC0819374A2F006A4382 /* LatoFontTests */,
-				84ADFBE819374A2F006A4382 /* Frameworks */,
-				84ADFBE719374A2F006A4382 /* Products */,
-			);
-			sourceTree = "<group>";
-		};
-		84ADFBE719374A2F006A4382 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				84ADFBE619374A2F006A4382 /* LatoFont.app */,
-				84ADFC0119374A2F006A4382 /* LatoFontTests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		84ADFBE819374A2F006A4382 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				84ADFC3119374FB0006A4382 /* CoreText.framework */,
-				84ADFBE919374A2F006A4382 /* Foundation.framework */,
-				84ADFBEB19374A2F006A4382 /* CoreGraphics.framework */,
-				84ADFBED19374A2F006A4382 /* UIKit.framework */,
-				84ADFC0219374A2F006A4382 /* XCTest.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		84ADFBEF19374A2F006A4382 /* LatoFont */ = {
-			isa = PBXGroup;
-			children = (
-				84ADFC331937575D006A4382 /* Example */,
-				84ADFBF819374A2F006A4382 /* AppDelegate.h */,
-				84ADFBF919374A2F006A4382 /* AppDelegate.m */,
-				84ADFBFB19374A2F006A4382 /* Images.xcassets */,
-				84ADFBF019374A2F006A4382 /* Supporting Files */,
-			);
-			path = LatoFont;
-			sourceTree = "<group>";
-		};
-		84ADFBF019374A2F006A4382 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				84ADFBF119374A2F006A4382 /* LatoFont-Info.plist */,
-				84ADFBF219374A2F006A4382 /* InfoPlist.strings */,
-				84ADFBF519374A2F006A4382 /* main.m */,
-				84ADFBF719374A2F006A4382 /* LatoFont-Prefix.pch */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		84ADFC0819374A2F006A4382 /* LatoFontTests */ = {
-			isa = PBXGroup;
-			children = (
-				84ADFC0E19374A2F006A4382 /* LatoFontTests.m */,
-				84ADFC0919374A2F006A4382 /* Supporting Files */,
-			);
-			path = LatoFontTests;
-			sourceTree = "<group>";
-		};
-		84ADFC0919374A2F006A4382 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				84ADFC0A19374A2F006A4382 /* LatoFontTests-Info.plist */,
-				84ADFC0B19374A2F006A4382 /* InfoPlist.strings */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		84ADFC331937575D006A4382 /* Example */ = {
-			isa = PBXGroup;
-			children = (
-				84ADFC341937579B006A4382 /* ExampleVC.h */,
-				84ADFC351937579B006A4382 /* ExampleVC.m */,
-				84ADFC361937579B006A4382 /* ExampleVC.xib */,
-			);
-			name = Example;
-			sourceTree = "<group>";
-		};
-/* End PBXGroup section */
-
-/* Begin PBXNativeTarget section */
-		84ADFBE519374A2F006A4382 /* LatoFont */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 84ADFC1219374A2F006A4382 /* Build configuration list for PBXNativeTarget "LatoFont" */;
-			buildPhases = (
-				84ADFBE219374A2F006A4382 /* Sources */,
-				84ADFBE319374A2F006A4382 /* Frameworks */,
-				84ADFBE419374A2F006A4382 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = LatoFont;
-			productName = LatoFont;
-			productReference = 84ADFBE619374A2F006A4382 /* LatoFont.app */;
-			productType = "com.apple.product-type.application";
-		};
-		84ADFC0019374A2F006A4382 /* LatoFontTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 84ADFC1519374A2F006A4382 /* Build configuration list for PBXNativeTarget "LatoFontTests" */;
-			buildPhases = (
-				84ADFBFD19374A2F006A4382 /* Sources */,
-				84ADFBFE19374A2F006A4382 /* Frameworks */,
-				84ADFBFF19374A2F006A4382 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				84ADFC0719374A2F006A4382 /* PBXTargetDependency */,
-			);
-			name = LatoFontTests;
-			productName = LatoFontTests;
-			productReference = 84ADFC0119374A2F006A4382 /* LatoFontTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-/* End PBXNativeTarget section */
-
-/* Begin PBXProject section */
-		84ADFBDE19374A2F006A4382 /* Project object */ = {
-			isa = PBXProject;
-			attributes = {
-				LastUpgradeCheck = 0510;
-				ORGANIZATIONNAME = "Michal Konturek";
-				TargetAttributes = {
-					84ADFC0019374A2F006A4382 = {
-						TestTargetID = 84ADFBE519374A2F006A4382;
-					};
-				};
-			};
-			buildConfigurationList = 84ADFBE119374A2F006A4382 /* Build configuration list for PBXProject "LatoFont" */;
-			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
-			hasScannedForEncodings = 0;
-			knownRegions = (
-				en,
-			);
-			mainGroup = 84ADFBDD19374A2F006A4382;
-			productRefGroup = 84ADFBE719374A2F006A4382 /* Products */;
-			projectDirPath = "";
-			projectRoot = "";
-			targets = (
-				84ADFBE519374A2F006A4382 /* LatoFont */,
-				84ADFC0019374A2F006A4382 /* LatoFontTests */,
-			);
-		};
-/* End PBXProject section */
-
-/* Begin PBXResourcesBuildPhase section */
-		84ADFBE419374A2F006A4382 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				84ADFBF419374A2F006A4382 /* InfoPlist.strings in Resources */,
-				84ADFBFC19374A2F006A4382 /* Images.xcassets in Resources */,
-				84ADFC381937579B006A4382 /* ExampleVC.xib in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		84ADFBFF19374A2F006A4382 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				84ADFC0D19374A2F006A4382 /* InfoPlist.strings in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
-
-/* Begin PBXSourcesBuildPhase section */
-		84ADFBE219374A2F006A4382 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				84ADFBFA19374A2F006A4382 /* AppDelegate.m in Sources */,
-				84ADFBF619374A2F006A4382 /* main.m in Sources */,
-				84ADFC371937579B006A4382 /* ExampleVC.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		84ADFBFD19374A2F006A4382 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				84ADFC0F19374A2F006A4382 /* LatoFontTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		84ADFC0719374A2F006A4382 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 84ADFBE519374A2F006A4382 /* LatoFont */;
-			targetProxy = 84ADFC0619374A2F006A4382 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		84ADFBF219374A2F006A4382 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				84ADFBF319374A2F006A4382 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		84ADFC0B19374A2F006A4382 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				84ADFC0C19374A2F006A4382 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
-/* Begin XCBuildConfiguration section */
-		84ADFC1019374A2F006A4382 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				COPY_PHASE_STRIP = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
-			};
-			name = Debug;
-		};
-		84ADFC1119374A2F006A4382 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				SDKROOT = iphoneos;
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		84ADFC1319374A2F006A4382 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = YES;
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "LatoFont/LatoFont-Prefix.pch";
-				INFOPLIST_FILE = "LatoFont/LatoFont-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/**";
-				WRAPPER_EXTENSION = app;
-			};
-			name = Debug;
-		};
-		84ADFC1419374A2F006A4382 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = YES;
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "LatoFont/LatoFont-Prefix.pch";
-				INFOPLIST_FILE = "LatoFont/LatoFont-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/**";
-				WRAPPER_EXTENSION = app;
-			};
-			name = Release;
-		};
-		84ADFC1619374A2F006A4382 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LatoFont.app/LatoFont";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "LatoFont/LatoFont-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "LatoFontTests/LatoFontTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Debug;
-		};
-		84ADFC1719374A2F006A4382 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LatoFont.app/LatoFont";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "LatoFont/LatoFont-Prefix.pch";
-				INFOPLIST_FILE = "LatoFontTests/LatoFontTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Release;
-		};
-/* End XCBuildConfiguration section */
-
-/* Begin XCConfigurationList section */
-		84ADFBE119374A2F006A4382 /* Build configuration list for PBXProject "LatoFont" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				84ADFC1019374A2F006A4382 /* Debug */,
-				84ADFC1119374A2F006A4382 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		84ADFC1219374A2F006A4382 /* Build configuration list for PBXNativeTarget "LatoFont" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				84ADFC1319374A2F006A4382 /* Debug */,
-				84ADFC1419374A2F006A4382 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		84ADFC1519374A2F006A4382 /* Build configuration list for PBXNativeTarget "LatoFontTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				84ADFC1619374A2F006A4382 /* Debug */,
-				84ADFC1719374A2F006A4382 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-/* End XCConfigurationList section */
-	};
-	rootObject = 84ADFBDE19374A2F006A4382 /* Project object */;
-}
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>archiveVersion</key>
+	<string>1</string>
+	<key>classes</key>
+	<dict/>
+	<key>objectVersion</key>
+	<string>46</string>
+	<key>objects</key>
+	<dict>
+		<key>6448C827C5A34AFBA3244DFD</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>name</key>
+			<string>Pods.xcconfig</string>
+			<key>path</key>
+			<string>Pods/Pods.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>712EB3E1F9084EEF90C8BA54</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>inputPaths</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXShellScriptBuildPhase</string>
+			<key>name</key>
+			<string>Copy Pods Resources</string>
+			<key>outputPaths</key>
+			<array/>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+			<key>shellPath</key>
+			<string>/bin/sh</string>
+			<key>shellScript</key>
+			<string>"${SRCROOT}/Pods/Pods-resources.sh"
+</string>
+			<key>showEnvVarsInLog</key>
+			<string>0</string>
+		</dict>
+		<key>84ADFBDD19374A2F006A4382</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>84ADFBEF19374A2F006A4382</string>
+				<string>84ADFC0819374A2F006A4382</string>
+				<string>84ADFBE819374A2F006A4382</string>
+				<string>84ADFBE719374A2F006A4382</string>
+				<string>6448C827C5A34AFBA3244DFD</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>84ADFBDE19374A2F006A4382</key>
+		<dict>
+			<key>attributes</key>
+			<dict>
+				<key>LastUpgradeCheck</key>
+				<string>0510</string>
+				<key>ORGANIZATIONNAME</key>
+				<string>Michal Konturek</string>
+				<key>TargetAttributes</key>
+				<dict>
+					<key>84ADFC0019374A2F006A4382</key>
+					<dict>
+						<key>TestTargetID</key>
+						<string>84ADFBE519374A2F006A4382</string>
+					</dict>
+				</dict>
+			</dict>
+			<key>buildConfigurationList</key>
+			<string>84ADFBE119374A2F006A4382</string>
+			<key>compatibilityVersion</key>
+			<string>Xcode 3.2</string>
+			<key>developmentRegion</key>
+			<string>English</string>
+			<key>hasScannedForEncodings</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXProject</string>
+			<key>knownRegions</key>
+			<array>
+				<string>en</string>
+			</array>
+			<key>mainGroup</key>
+			<string>84ADFBDD19374A2F006A4382</string>
+			<key>productRefGroup</key>
+			<string>84ADFBE719374A2F006A4382</string>
+			<key>projectDirPath</key>
+			<string></string>
+			<key>projectReferences</key>
+			<array/>
+			<key>projectRoot</key>
+			<string></string>
+			<key>targets</key>
+			<array>
+				<string>84ADFBE519374A2F006A4382</string>
+				<string>84ADFC0019374A2F006A4382</string>
+			</array>
+		</dict>
+		<key>84ADFBE119374A2F006A4382</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>84ADFC1019374A2F006A4382</string>
+				<string>84ADFC1119374A2F006A4382</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>84ADFBE219374A2F006A4382</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>84ADFBFA19374A2F006A4382</string>
+				<string>84ADFBF619374A2F006A4382</string>
+				<string>84ADFC371937579B006A4382</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>84ADFBE319374A2F006A4382</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>84ADFC3219374FB0006A4382</string>
+				<string>84ADFBEC19374A2F006A4382</string>
+				<string>84ADFBEE19374A2F006A4382</string>
+				<string>84ADFBEA19374A2F006A4382</string>
+				<string>F56DA9843AD144099DB96856</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>84ADFBE419374A2F006A4382</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>84ADFBF419374A2F006A4382</string>
+				<string>84ADFBFC19374A2F006A4382</string>
+				<string>84ADFC381937579B006A4382</string>
+			</array>
+			<key>isa</key>
+			<string>PBXResourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>84ADFBE519374A2F006A4382</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>84ADFC1219374A2F006A4382</string>
+			<key>buildPhases</key>
+			<array>
+				<string>8A08DA6EE9224C17B4F25886</string>
+				<string>84ADFBE219374A2F006A4382</string>
+				<string>84ADFBE319374A2F006A4382</string>
+				<string>84ADFBE419374A2F006A4382</string>
+				<string>712EB3E1F9084EEF90C8BA54</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>LatoFont</string>
+			<key>productName</key>
+			<string>LatoFont</string>
+			<key>productReference</key>
+			<string>84ADFBE619374A2F006A4382</string>
+			<key>productType</key>
+			<string>com.apple.product-type.application</string>
+		</dict>
+		<key>84ADFBE619374A2F006A4382</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.application</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>LatoFont.app</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>84ADFBE719374A2F006A4382</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>84ADFBE619374A2F006A4382</string>
+				<string>84ADFC0119374A2F006A4382</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Products</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>84ADFBE819374A2F006A4382</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>84ADFC3119374FB0006A4382</string>
+				<string>84ADFBE919374A2F006A4382</string>
+				<string>84ADFBEB19374A2F006A4382</string>
+				<string>84ADFBED19374A2F006A4382</string>
+				<string>84ADFC0219374A2F006A4382</string>
+				<string>C3C6EE975F39442FB4AA536B</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Frameworks</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>84ADFBE919374A2F006A4382</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>Foundation.framework</string>
+			<key>path</key>
+			<string>System/Library/Frameworks/Foundation.framework</string>
+			<key>sourceTree</key>
+			<string>SDKROOT</string>
+		</dict>
+		<key>84ADFBEA19374A2F006A4382</key>
+		<dict>
+			<key>fileRef</key>
+			<string>84ADFBE919374A2F006A4382</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>84ADFBEB19374A2F006A4382</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>CoreGraphics.framework</string>
+			<key>path</key>
+			<string>System/Library/Frameworks/CoreGraphics.framework</string>
+			<key>sourceTree</key>
+			<string>SDKROOT</string>
+		</dict>
+		<key>84ADFBEC19374A2F006A4382</key>
+		<dict>
+			<key>fileRef</key>
+			<string>84ADFBEB19374A2F006A4382</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>84ADFBED19374A2F006A4382</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>UIKit.framework</string>
+			<key>path</key>
+			<string>System/Library/Frameworks/UIKit.framework</string>
+			<key>sourceTree</key>
+			<string>SDKROOT</string>
+		</dict>
+		<key>84ADFBEE19374A2F006A4382</key>
+		<dict>
+			<key>fileRef</key>
+			<string>84ADFBED19374A2F006A4382</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>84ADFBEF19374A2F006A4382</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>84ADFC331937575D006A4382</string>
+				<string>84ADFBF819374A2F006A4382</string>
+				<string>84ADFBF919374A2F006A4382</string>
+				<string>84ADFBFB19374A2F006A4382</string>
+				<string>84ADFBF019374A2F006A4382</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>LatoFont</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>84ADFBF019374A2F006A4382</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>84ADFBF119374A2F006A4382</string>
+				<string>84ADFBF219374A2F006A4382</string>
+				<string>84ADFBF519374A2F006A4382</string>
+				<string>84ADFBF719374A2F006A4382</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Supporting Files</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>84ADFBF119374A2F006A4382</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>LatoFont-Info.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>84ADFBF219374A2F006A4382</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>84ADFBF319374A2F006A4382</string>
+			</array>
+			<key>isa</key>
+			<string>PBXVariantGroup</string>
+			<key>name</key>
+			<string>InfoPlist.strings</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>84ADFBF319374A2F006A4382</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.strings</string>
+			<key>name</key>
+			<string>en</string>
+			<key>path</key>
+			<string>en.lproj/InfoPlist.strings</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>84ADFBF419374A2F006A4382</key>
+		<dict>
+			<key>fileRef</key>
+			<string>84ADFBF219374A2F006A4382</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>84ADFBF519374A2F006A4382</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>main.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>84ADFBF619374A2F006A4382</key>
+		<dict>
+			<key>fileRef</key>
+			<string>84ADFBF519374A2F006A4382</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>84ADFBF719374A2F006A4382</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>LatoFont-Prefix.pch</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>84ADFBF819374A2F006A4382</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>AppDelegate.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>84ADFBF919374A2F006A4382</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>AppDelegate.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>84ADFBFA19374A2F006A4382</key>
+		<dict>
+			<key>fileRef</key>
+			<string>84ADFBF919374A2F006A4382</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>84ADFBFB19374A2F006A4382</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>folder.assetcatalog</string>
+			<key>path</key>
+			<string>Images.xcassets</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>84ADFBFC19374A2F006A4382</key>
+		<dict>
+			<key>fileRef</key>
+			<string>84ADFBFB19374A2F006A4382</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>84ADFBFD19374A2F006A4382</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>84ADFC0F19374A2F006A4382</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>84ADFBFE19374A2F006A4382</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>84ADFC0319374A2F006A4382</string>
+				<string>84ADFC0519374A2F006A4382</string>
+				<string>84ADFC0419374A2F006A4382</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>84ADFBFF19374A2F006A4382</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>84ADFC0D19374A2F006A4382</string>
+			</array>
+			<key>isa</key>
+			<string>PBXResourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>84ADFC0019374A2F006A4382</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>84ADFC1519374A2F006A4382</string>
+			<key>buildPhases</key>
+			<array>
+				<string>84ADFBFD19374A2F006A4382</string>
+				<string>84ADFBFE19374A2F006A4382</string>
+				<string>84ADFBFF19374A2F006A4382</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array>
+				<string>84ADFC0719374A2F006A4382</string>
+			</array>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>LatoFontTests</string>
+			<key>productName</key>
+			<string>LatoFontTests</string>
+			<key>productReference</key>
+			<string>84ADFC0119374A2F006A4382</string>
+			<key>productType</key>
+			<string>com.apple.product-type.bundle.unit-test</string>
+		</dict>
+		<key>84ADFC0119374A2F006A4382</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.cfbundle</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>LatoFontTests.xctest</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>84ADFC0219374A2F006A4382</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>XCTest.framework</string>
+			<key>path</key>
+			<string>Library/Frameworks/XCTest.framework</string>
+			<key>sourceTree</key>
+			<string>DEVELOPER_DIR</string>
+		</dict>
+		<key>84ADFC0319374A2F006A4382</key>
+		<dict>
+			<key>fileRef</key>
+			<string>84ADFC0219374A2F006A4382</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>84ADFC0419374A2F006A4382</key>
+		<dict>
+			<key>fileRef</key>
+			<string>84ADFBE919374A2F006A4382</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>84ADFC0519374A2F006A4382</key>
+		<dict>
+			<key>fileRef</key>
+			<string>84ADFBED19374A2F006A4382</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>84ADFC0619374A2F006A4382</key>
+		<dict>
+			<key>containerPortal</key>
+			<string>84ADFBDE19374A2F006A4382</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>84ADFBE519374A2F006A4382</string>
+			<key>remoteInfo</key>
+			<string>LatoFont</string>
+		</dict>
+		<key>84ADFC0719374A2F006A4382</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXTargetDependency</string>
+			<key>target</key>
+			<string>84ADFBE519374A2F006A4382</string>
+			<key>targetProxy</key>
+			<string>84ADFC0619374A2F006A4382</string>
+		</dict>
+		<key>84ADFC0819374A2F006A4382</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>84ADFC0E19374A2F006A4382</string>
+				<string>84ADFC0919374A2F006A4382</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>LatoFontTests</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>84ADFC0919374A2F006A4382</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>84ADFC0A19374A2F006A4382</string>
+				<string>84ADFC0B19374A2F006A4382</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Supporting Files</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>84ADFC0A19374A2F006A4382</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>LatoFontTests-Info.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>84ADFC0B19374A2F006A4382</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>84ADFC0C19374A2F006A4382</string>
+			</array>
+			<key>isa</key>
+			<string>PBXVariantGroup</string>
+			<key>name</key>
+			<string>InfoPlist.strings</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>84ADFC0C19374A2F006A4382</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.strings</string>
+			<key>name</key>
+			<string>en</string>
+			<key>path</key>
+			<string>en.lproj/InfoPlist.strings</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>84ADFC0D19374A2F006A4382</key>
+		<dict>
+			<key>fileRef</key>
+			<string>84ADFC0B19374A2F006A4382</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>84ADFC0E19374A2F006A4382</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>LatoFontTests.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>84ADFC0F19374A2F006A4382</key>
+		<dict>
+			<key>fileRef</key>
+			<string>84ADFC0E19374A2F006A4382</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>84ADFC1019374A2F006A4382</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
+				<string>gnu++0x</string>
+				<key>CLANG_CXX_LIBRARY</key>
+				<string>libc++</string>
+				<key>CLANG_ENABLE_MODULES</key>
+				<string>YES</string>
+				<key>CLANG_ENABLE_OBJC_ARC</key>
+				<string>YES</string>
+				<key>CLANG_WARN_BOOL_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
+				<string>YES_ERROR</string>
+				<key>CLANG_WARN_EMPTY_BODY</key>
+				<string>YES</string>
+				<key>CLANG_WARN_ENUM_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_INT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
+				<string>YES_ERROR</string>
+				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
+				<string>YES</string>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string>iPhone Developer</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>NO</string>
+				<key>GCC_C_LANGUAGE_STANDARD</key>
+				<string>gnu99</string>
+				<key>GCC_DYNAMIC_NO_PIC</key>
+				<string>NO</string>
+				<key>GCC_OPTIMIZATION_LEVEL</key>
+				<string>0</string>
+				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
+				<array>
+					<string>DEBUG=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
+				<string>NO</string>
+				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
+				<string>YES</string>
+				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
+				<string>YES_ERROR</string>
+				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
+				<string>YES_AGGRESSIVE</string>
+				<key>GCC_WARN_UNUSED_FUNCTION</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNUSED_VARIABLE</key>
+				<string>YES</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>7.1</string>
+				<key>ONLY_ACTIVE_ARCH</key>
+				<string>YES</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>84ADFC1119374A2F006A4382</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
+				<string>gnu++0x</string>
+				<key>CLANG_CXX_LIBRARY</key>
+				<string>libc++</string>
+				<key>CLANG_ENABLE_MODULES</key>
+				<string>YES</string>
+				<key>CLANG_ENABLE_OBJC_ARC</key>
+				<string>YES</string>
+				<key>CLANG_WARN_BOOL_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
+				<string>YES_ERROR</string>
+				<key>CLANG_WARN_EMPTY_BODY</key>
+				<string>YES</string>
+				<key>CLANG_WARN_ENUM_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_INT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
+				<string>YES_ERROR</string>
+				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
+				<string>YES</string>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string>iPhone Developer</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>YES</string>
+				<key>ENABLE_NS_ASSERTIONS</key>
+				<string>NO</string>
+				<key>GCC_C_LANGUAGE_STANDARD</key>
+				<string>gnu99</string>
+				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
+				<string>YES</string>
+				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
+				<string>YES_ERROR</string>
+				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
+				<string>YES_AGGRESSIVE</string>
+				<key>GCC_WARN_UNUSED_FUNCTION</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNUSED_VARIABLE</key>
+				<string>YES</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>7.1</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>VALIDATE_PRODUCT</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>84ADFC1219374A2F006A4382</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>84ADFC1319374A2F006A4382</string>
+				<string>84ADFC1419374A2F006A4382</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>84ADFC1319374A2F006A4382</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>6448C827C5A34AFBA3244DFD</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>YES</string>
+				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
+				<string>AppIcon</string>
+				<key>ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME</key>
+				<string>LaunchImage</string>
+				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>LatoFont/LatoFont-Prefix.pch</string>
+				<key>INFOPLIST_FILE</key>
+				<string>LatoFont/LatoFont-Info.plist</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>USER_HEADER_SEARCH_PATHS</key>
+				<string>$(SRCROOT)/**</string>
+				<key>WRAPPER_EXTENSION</key>
+				<string>app</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>84ADFC1419374A2F006A4382</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>6448C827C5A34AFBA3244DFD</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>YES</string>
+				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
+				<string>AppIcon</string>
+				<key>ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME</key>
+				<string>LaunchImage</string>
+				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>LatoFont/LatoFont-Prefix.pch</string>
+				<key>INFOPLIST_FILE</key>
+				<string>LatoFont/LatoFont-Info.plist</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>USER_HEADER_SEARCH_PATHS</key>
+				<string>$(SRCROOT)/**</string>
+				<key>WRAPPER_EXTENSION</key>
+				<string>app</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>84ADFC1519374A2F006A4382</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>84ADFC1619374A2F006A4382</string>
+				<string>84ADFC1719374A2F006A4382</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>84ADFC1619374A2F006A4382</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>BUNDLE_LOADER</key>
+				<string>$(BUILT_PRODUCTS_DIR)/LatoFont.app/LatoFont</string>
+				<key>FRAMEWORK_SEARCH_PATHS</key>
+				<array>
+					<string>$(SDKROOT)/Developer/Library/Frameworks</string>
+					<string>$(inherited)</string>
+					<string>$(DEVELOPER_FRAMEWORKS_DIR)</string>
+				</array>
+				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>LatoFont/LatoFont-Prefix.pch</string>
+				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
+				<array>
+					<string>DEBUG=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>INFOPLIST_FILE</key>
+				<string>LatoFontTests/LatoFontTests-Info.plist</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>TEST_HOST</key>
+				<string>$(BUNDLE_LOADER)</string>
+				<key>WRAPPER_EXTENSION</key>
+				<string>xctest</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>84ADFC1719374A2F006A4382</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>BUNDLE_LOADER</key>
+				<string>$(BUILT_PRODUCTS_DIR)/LatoFont.app/LatoFont</string>
+				<key>FRAMEWORK_SEARCH_PATHS</key>
+				<array>
+					<string>$(SDKROOT)/Developer/Library/Frameworks</string>
+					<string>$(inherited)</string>
+					<string>$(DEVELOPER_FRAMEWORKS_DIR)</string>
+				</array>
+				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>LatoFont/LatoFont-Prefix.pch</string>
+				<key>INFOPLIST_FILE</key>
+				<string>LatoFontTests/LatoFontTests-Info.plist</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>TEST_HOST</key>
+				<string>$(BUNDLE_LOADER)</string>
+				<key>WRAPPER_EXTENSION</key>
+				<string>xctest</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>84ADFC3119374FB0006A4382</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>CoreText.framework</string>
+			<key>path</key>
+			<string>System/Library/Frameworks/CoreText.framework</string>
+			<key>sourceTree</key>
+			<string>SDKROOT</string>
+		</dict>
+		<key>84ADFC3219374FB0006A4382</key>
+		<dict>
+			<key>fileRef</key>
+			<string>84ADFC3119374FB0006A4382</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>84ADFC331937575D006A4382</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>84ADFC341937579B006A4382</string>
+				<string>84ADFC351937579B006A4382</string>
+				<string>84ADFC361937579B006A4382</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Example</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>84ADFC341937579B006A4382</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>ExampleVC.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>84ADFC351937579B006A4382</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>ExampleVC.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>84ADFC361937579B006A4382</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>file.xib</string>
+			<key>path</key>
+			<string>ExampleVC.xib</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>84ADFC371937579B006A4382</key>
+		<dict>
+			<key>fileRef</key>
+			<string>84ADFC351937579B006A4382</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>84ADFC381937579B006A4382</key>
+		<dict>
+			<key>fileRef</key>
+			<string>84ADFC361937579B006A4382</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>8A08DA6EE9224C17B4F25886</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>inputPaths</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXShellScriptBuildPhase</string>
+			<key>name</key>
+			<string>Check Pods Manifest.lock</string>
+			<key>outputPaths</key>
+			<array/>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+			<key>shellPath</key>
+			<string>/bin/sh</string>
+			<key>shellScript</key>
+			<string>diff "${PODS_ROOT}/../Podfile.lock" "${PODS_ROOT}/Manifest.lock" &gt; /dev/null
+if [[ $? != 0 ]] ; then
+    cat &lt;&lt; EOM
+error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.
+EOM
+    exit 1
+fi
+</string>
+			<key>showEnvVarsInLog</key>
+			<string>0</string>
+		</dict>
+		<key>C3C6EE975F39442FB4AA536B</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>archive.ar</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>libPods.a</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>F56DA9843AD144099DB96856</key>
+		<dict>
+			<key>fileRef</key>
+			<string>C3C6EE975F39442FB4AA536B</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+	</dict>
+	<key>rootObject</key>
+	<string>84ADFBDE19374A2F006A4382</string>
+</dict>
+</plist>

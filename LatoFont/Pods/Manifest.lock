@@ -1,0 +1,10 @@
+PODS:
+  - LatoFont (1.0.0)
+
+DEPENDENCIES:
+  - LatoFont (~> 1.0.0)
+
+SPEC CHECKSUMS:
+  LatoFont: 325a86578945d04cce8039deaf163229c63e2258
+
+COCOAPODS: 0.33.1
