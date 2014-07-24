@@ -26,12 +26,16 @@ static NSArray *fonts = nil;
               @"Lato-Black",
               @"Lato-BlackItalic"
               ];
-    
+
+    NSString* bundlePath = [[NSBundle mainBundle] pathForResource:@"LatoFont" ofType:@"bundle"];
+    NSBundle* bundleWithFonts = [NSBundle bundleWithPath:bundlePath];
+
     for (id font in fonts) {
-        NSURL *url = [[NSBundle mainBundle] URLForResource:font withExtension:@"ttf"];
+        NSURL *url = [bundleWithFonts URLForResource:font withExtension:@"ttf"];
         CFErrorRef error;
-        CTFontManagerRegisterFontsForURL((__bridge CFURLRef)url, kCTFontManagerScopeNone, &error);
-        error = nil;
+        if (url) {
+            CTFontManagerRegisterFontsForURL((__bridge CFURLRef)url, kCTFontManagerScopeNone, &error);
+        }
     }
 }
 
