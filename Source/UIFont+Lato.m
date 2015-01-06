@@ -32,9 +32,12 @@ static NSArray *fonts = nil;
               @"Lato-BlackItalic"
               ];
 
+    NSBundle *bundle = [NSBundle bundleForClass:[LatoFontFakeClass class]];
+    NSString *bundlePath = [bundle pathForResource:@"LatoFont" ofType:@"bundle"];
+    NSBundle *bundleWithFonts = [NSBundle bundleWithPath:bundlePath];
+    
     for (id font in fonts) {
-        NSString *pathOfFont = [[NSBundle bundleForClass:[LatoFontFakeClass class]] pathForResource:font ofType:@"ttf"];
-        NSURL *url = [NSURL fileURLWithPath:pathOfFont];
+        NSURL *url = [bundleWithFonts URLForResource:font withExtension:@"ttf"];
         CFErrorRef error;
         if (url) {
             CTFontManagerRegisterFontsForURL((__bridge CFURLRef)url, kCTFontManagerScopeNone, &error);
