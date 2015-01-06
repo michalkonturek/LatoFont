@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
   }
 
   s.source_files = 'Source/*.{h,m}'
-  s.resources = ["Source/Fonts/*.ttf"]
+  s.resource_bundle = { 'LatoFont' => 'Source/Fonts/*.ttf' }
 
   s.requires_arc = true
 

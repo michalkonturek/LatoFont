@@ -10,6 +10,11 @@
 
 #import <CoreText/CoreText.h>
 
+@interface LatoFontFakeClass : NSObject
+@end
+@implementation LatoFontFakeClass
+@end
+
 static NSArray *fonts = nil;
 
 @implementation UIFont (Lato)
@@ -28,7 +33,7 @@ static NSArray *fonts = nil;
               ];
 
     for (id font in fonts) {
-        NSString *pathOfFont = [[NSBundle mainBundle] pathForResource:font ofType:@"ttf"];
+        NSString *pathOfFont = [[NSBundle bundleForClass:[LatoFontFakeClass class]] pathForResource:font ofType:@"ttf"];
         NSURL *url = [NSURL fileURLWithPath:pathOfFont];
         CFErrorRef error;
         if (url) {
