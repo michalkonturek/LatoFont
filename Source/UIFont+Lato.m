@@ -27,11 +27,9 @@ static NSArray *fonts = nil;
               @"Lato-BlackItalic"
               ];
 
-    NSString *bundlePath = [[NSBundle mainBundle] pathForResource:@"LatoFont" ofType:@"bundle"];
-    NSBundle *bundleWithFonts = [NSBundle bundleWithPath:bundlePath];
-
     for (id font in fonts) {
-        NSURL *url = [bundleWithFonts URLForResource:font withExtension:@"ttf"];
+        NSString *pathOfFont = [[NSBundle mainBundle] pathForResource:font ofType:@"ttf"];
+        NSURL *url = [NSURL fileURLWithPath:pathOfFont];
         CFErrorRef error;
         if (url) {
             CTFontManagerRegisterFontsForURL((__bridge CFURLRef)url, kCTFontManagerScopeNone, &error);

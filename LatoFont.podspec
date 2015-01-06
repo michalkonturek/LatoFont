@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name         = "LatoFont"
-  s.version      = "1.0.0"
+  s.version      = "1.0.1"
   s.summary      = "Brings Lato font to iOS."
   s.homepage     = "https://github.com/michalkonturek/LatoFont"
   s.license      = 'MIT'
@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
   }
 
   s.source_files = 'Source/*.{h,m}'
-  s.resource_bundle = { 'LatoFont' => 'Source/Fonts/*.ttf' }
+  s.resources = ["Source/Fonts/*.ttf"]
 
   s.requires_arc = true
 
