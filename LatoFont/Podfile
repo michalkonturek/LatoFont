@@ -1,4 +1,0 @@
-
-target 'LatoFont' do
-  pod 'LatoFont', '~> 1.0.1'
-end

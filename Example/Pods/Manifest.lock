@@ -1,0 +1,16 @@
+PODS:
+  - LatoFont (2.0.0)
+
+DEPENDENCIES:
+  - LatoFont (from `../`)
+
+EXTERNAL SOURCES:
+  LatoFont:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LatoFont: 394366a81a483531983002aafd714827b4153a2f
+
+PODFILE CHECKSUM: d7fc586e3a18647ec5dbc5c9190ee0f01261799f
+
+COCOAPODS: 1.0.1

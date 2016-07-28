@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'LatoFont_Example' do
+  pod 'LatoFont', :path => '../'
+
+  target 'LatoFont_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
