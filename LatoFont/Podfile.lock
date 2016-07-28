@@ -1,12 +1,12 @@
 PODS:
-  - LatoFont (1.0.0)
+  - LatoFont (1.0.1)
 
 DEPENDENCIES:
-  - LatoFont (~> 1.0.0)
+  - LatoFont (~> 1.0.1)
 
 SPEC CHECKSUMS:
-  LatoFont: bcfb0239c339af9aacf4b3061d5268e53e080732
+  LatoFont: 0bfeace154ee2da6080123d0e80560f6e22b187d
 
-PODFILE CHECKSUM: 1315fbb844c13dff416f71ea0ee137730476af05
+PODFILE CHECKSUM: de92e29148bc3652f91debbc60e988baec3a15ea
 
 COCOAPODS: 1.0.1
