@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		20B1E60293830B92A849B377 /* libPods-LatoFont.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2218CF5784A8DF535C873473 /* libPods-LatoFont.a */; };
 		84ADFBEA19374A2F006A4382 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84ADFBE919374A2F006A4382 /* Foundation.framework */; };
 		84ADFBEC19374A2F006A4382 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84ADFBEB19374A2F006A4382 /* CoreGraphics.framework */; };
 		84ADFBEE19374A2F006A4382 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84ADFBED19374A2F006A4382 /* UIKit.framework */; };
@@ -22,7 +23,6 @@
 		84ADFC3219374FB0006A4382 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84ADFC3119374FB0006A4382 /* CoreText.framework */; };
 		84ADFC371937579B006A4382 /* ExampleVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 84ADFC351937579B006A4382 /* ExampleVC.m */; };
 		84ADFC381937579B006A4382 /* ExampleVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84ADFC361937579B006A4382 /* ExampleVC.xib */; };
-		F56DA9843AD144099DB96856 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C3C6EE975F39442FB4AA536B /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +36,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		6448C827C5A34AFBA3244DFD /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		1DDB5E0ACCDB37F110A27A70 /* Pods-LatoFont.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LatoFont.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LatoFont/Pods-LatoFont.debug.xcconfig"; sourceTree = "<group>"; };
+		2218CF5784A8DF535C873473 /* libPods-LatoFont.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LatoFont.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		62AF70ED166AA4A00C06EEE8 /* Pods-LatoFont.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LatoFont.release.xcconfig"; path = "Pods/Target Support Files/Pods-LatoFont/Pods-LatoFont.release.xcconfig"; sourceTree = "<group>"; };
 		84ADFBE619374A2F006A4382 /* LatoFont.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LatoFont.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84ADFBE919374A2F006A4382 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		84ADFBEB19374A2F006A4382 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -57,7 +59,6 @@
 		84ADFC341937579B006A4382 /* ExampleVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExampleVC.h; sourceTree = "<group>"; };
 		84ADFC351937579B006A4382 /* ExampleVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleVC.m; sourceTree = "<group>"; };
 		84ADFC361937579B006A4382 /* ExampleVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ExampleVC.xib; sourceTree = "<group>"; };
-		C3C6EE975F39442FB4AA536B /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,7 +70,7 @@
 				84ADFBEC19374A2F006A4382 /* CoreGraphics.framework in Frameworks */,
 				84ADFBEE19374A2F006A4382 /* UIKit.framework in Frameworks */,
 				84ADFBEA19374A2F006A4382 /* Foundation.framework in Frameworks */,
-				F56DA9843AD144099DB96856 /* libPods.a in Frameworks */,
+				20B1E60293830B92A849B377 /* libPods-LatoFont.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,6 +87,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2B356FA1C9C5EF2F0B9CA2A1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1DDB5E0ACCDB37F110A27A70 /* Pods-LatoFont.debug.xcconfig */,
+				62AF70ED166AA4A00C06EEE8 /* Pods-LatoFont.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		84ADFBDD19374A2F006A4382 = {
 			isa = PBXGroup;
 			children = (
@@ -93,7 +103,7 @@
 				84ADFC0819374A2F006A4382 /* LatoFontTests */,
 				84ADFBE819374A2F006A4382 /* Frameworks */,
 				84ADFBE719374A2F006A4382 /* Products */,
-				6448C827C5A34AFBA3244DFD /* Pods.xcconfig */,
+				2B356FA1C9C5EF2F0B9CA2A1 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -114,7 +124,7 @@
 				84ADFBEB19374A2F006A4382 /* CoreGraphics.framework */,
 				84ADFBED19374A2F006A4382 /* UIKit.framework */,
 				84ADFC0219374A2F006A4382 /* XCTest.framework */,
-				C3C6EE975F39442FB4AA536B /* libPods.a */,
+				2218CF5784A8DF535C873473 /* libPods-LatoFont.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -177,11 +187,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 84ADFC1219374A2F006A4382 /* Build configuration list for PBXNativeTarget "LatoFont" */;
 			buildPhases = (
-				8A08DA6EE9224C17B4F25886 /* Check Pods Manifest.lock */,
+				F67C42BA909C4185535A7277 /* [CP] Check Pods Manifest.lock */,
 				84ADFBE219374A2F006A4382 /* Sources */,
 				84ADFBE319374A2F006A4382 /* Frameworks */,
 				84ADFBE419374A2F006A4382 /* Resources */,
-				712EB3E1F9084EEF90C8BA54 /* Copy Pods Resources */,
+				3EEEB68C11376D2515E19D80 /* [CP] Embed Pods Frameworks */,
+				A798E4853C42AABC3824A113 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -264,29 +275,44 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		712EB3E1F9084EEF90C8BA54 /* Copy Pods Resources */ = {
+		3EEEB68C11376D2515E19D80 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LatoFont/Pods-LatoFont-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		8A08DA6EE9224C17B4F25886 /* Check Pods Manifest.lock */ = {
+		A798E4853C42AABC3824A113 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LatoFont/Pods-LatoFont-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F67C42BA909C4185535A7277 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -418,7 +444,7 @@
 		};
 		84ADFC1319374A2F006A4382 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6448C827C5A34AFBA3244DFD /* Pods.xcconfig */;
+			baseConfigurationReference = 1DDB5E0ACCDB37F110A27A70 /* Pods-LatoFont.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -435,7 +461,7 @@
 		};
 		84ADFC1419374A2F006A4382 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6448C827C5A34AFBA3244DFD /* Pods.xcconfig */;
+			baseConfigurationReference = 62AF70ED166AA4A00C06EEE8 /* Pods-LatoFont.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
