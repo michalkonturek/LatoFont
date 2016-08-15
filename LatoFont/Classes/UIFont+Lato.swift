@@ -55,7 +55,7 @@ extension UIFont {
         return UIFont.init(name: fonts[1], size: size);
     }
     
-    public class func latoLigt(size: CGFloat) -> UIFont! {
+    public class func latoLight(size: CGFloat) -> UIFont! {
         return UIFont.init(name: fonts[2], size: size);
     }
     
