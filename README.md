@@ -10,6 +10,60 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
+
+## Extensions
+
+```swift
+public class func latoHairline(size: CGFloat) -> UIFont!
+```
+Returns `Lato` font with `hairline` style.
+
+```swift
+public class func latoHairlineItalic(size: CGFloat) -> UIFont!
+```
+Returns `Lato` font with `hairline italic` style.
+
+```swift
+public class func latoLight(size: CGFloat) -> UIFont!
+```
+Returns `Lato` font with `light` style.
+
+```swift
+public class func latoLightItalic(size: CGFloat) -> UIFont!
+```
+Returns `Lato` font with `light italic` style.
+
+```swift
+public class func lato(size: CGFloat) -> UIFont!
+```
+Returns `Lato` font with `lato` style.
+
+```swift
+public class func latoItalic(size: CGFloat) -> UIFont!
+```
+Returns `Lato` font with `italic` style.
+
+```swift
+public class func latoBold(size: CGFloat) -> UIFont!
+```
+Returns `Lato` font with `bold` style.
+
+```swift
+public class func latoBoldItalic(size: CGFloat) -> UIFont!
+```
+Returns `Lato` font with `bold italic` style.
+
+```swift
+public class func latoBlack(size: CGFloat) -> UIFont!
+```
+Returns `Lato` font with `black` style.
+
+```swift
+public class func latoBlackItalic(size: CGFloat) -> UIFont!
+```
+Returns `Lato` font with `black italic` style.
+
+
 ## Installation
 
 LatoFont is available through [CocoaPods](http://cocoapods.org). To install
