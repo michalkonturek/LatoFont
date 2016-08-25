@@ -35,7 +35,7 @@ class ViewController: UIViewController {
         self.hairlineLabel.font = UIFont.latoHairline(size)
         self.hairlineItalicLabel.font = UIFont.latoHairlineItalic(size)
         
-        self.lightLabel.font = UIFont.latoLigt(size)
+        self.lightLabel.font = UIFont.latoLight(size)
         self.lightItalicLabel.font = UIFont.latoItalic(size)
         
         self.regularLabel.font = UIFont.lato(size)
