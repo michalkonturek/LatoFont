@@ -20,7 +20,7 @@ extension UIFont {
 
     @nonobjc static var fonts: [String]!
     
-    override public class func initialize() {
+    override open class func initialize() {
         fonts = [
             "Lato-Hairline",
             "Lato-HairlineItalic",
@@ -34,9 +34,9 @@ extension UIFont {
             "Lato-BlackItalic"
         ]
         
-        let podBundle = NSBundle(forClass: LatoFontFakeClass.self)
+        let podBundle = Bundle(forClass: LatoFontFakeClass.self)
         if let bundleURL = podBundle.URLForResource("LatoFont", withExtension: "bundle") {
-            if let bundle = NSBundle(URL: bundleURL) {
+            if let bundle = Bundle(URL: bundleURL) {
                 
                 for font in fonts {
                     let url = bundle.URLForResource(font, withExtension: "ttf")
