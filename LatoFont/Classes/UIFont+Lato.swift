@@ -20,7 +20,7 @@ extension UIFont {
 
     @nonobjc static var fonts: [String]!
     
-    override public class func initialize() {
+    override open class func initialize() {
         fonts = [
             "Lato-Hairline",
             "Lato-HairlineItalic",
@@ -34,16 +34,16 @@ extension UIFont {
             "Lato-BlackItalic"
         ]
         
-        let podBundle = NSBundle(forClass: LatoFontFakeClass.self)
-        if let bundleURL = podBundle.URLForResource("LatoFont", withExtension: "bundle") {
-            if let bundle = NSBundle(URL: bundleURL) {
+        let podBundle = Bundle(for: LatoFontFakeClass.self)
+        if let bundleURL = podBundle.url(forResource: "LatoFont", withExtension: "bundle") {
+            if let bundle = Bundle(url: bundleURL) {
                 
                 for font in fonts {
-                    let url = bundle.URLForResource(font, withExtension: "ttf")
+                    let url = bundle.url(forResource: font, withExtension: "ttf")
                     
                     if (url != nil) {
                         var errorRef: Unmanaged<CFError>?
-                        CTFontManagerRegisterFontsForURL(url!, .None, &errorRef)
+                        CTFontManagerRegisterFontsForURL(url! as CFURL, .none, &errorRef)
                     }
                 }
             }
