@@ -34,16 +34,16 @@ extension UIFont {
             "Lato-BlackItalic"
         ]
         
-        let podBundle = Bundle(forClass: LatoFontFakeClass.self)
-        if let bundleURL = podBundle.URLForResource("LatoFont", withExtension: "bundle") {
-            if let bundle = Bundle(URL: bundleURL) {
+        let podBundle = Bundle(for: LatoFontFakeClass.self)
+        if let bundleURL = podBundle.url(forResource: "LatoFont", withExtension: "bundle") {
+            if let bundle = Bundle(url: bundleURL) {
                 
                 for font in fonts {
-                    let url = bundle.URLForResource(font, withExtension: "ttf")
+                    let url = bundle.url(forResource: font, withExtension: "ttf")
                     
                     if (url != nil) {
                         var errorRef: Unmanaged<CFError>?
-                        CTFontManagerRegisterFontsForURL(url!, .None, &errorRef)
+                        CTFontManagerRegisterFontsForURL(url! as CFURL, .none, &errorRef)
                     }
                 }
             }
