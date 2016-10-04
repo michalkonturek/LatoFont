@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LatoFont'
-  s.version          = '2.0.1'
+  s.version          = '2.1.0'
   s.summary          = 'Brings Lato font to iOS.'
   s.homepage         = 'https://github.com/michalkonturek/LatoFont'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
