@@ -83,7 +83,7 @@ extension UIFont {
 
      - parameter size: size of the font
      */
-    public class func lato(_ style: LatoFont, (size: CGFloat = 17.0) -> UIFont! {
+    public class func lato(_ style: LatoFont, size: CGFloat = 17.0) -> UIFont! {
         return UIFont.init(name: style.rawValue, size: size)
     }
 
