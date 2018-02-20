@@ -32,20 +32,20 @@ class ViewController: UIViewController {
         
         let size: CGFloat = 17.0
         
-        self.hairlineLabel.font = UIFont.latoHairline(size)
-        self.hairlineItalicLabel.font = UIFont.latoHairlineItalic(size)
+        self.hairlineLabel.font = UIFont.latoHairline(size: size)
+        self.hairlineItalicLabel.font = UIFont.latoHairlineItalic(size: size)
         
-        self.lightLabel.font = UIFont.latoLight(size)
-        self.lightItalicLabel.font = UIFont.latoItalic(size)
+        self.lightLabel.font = UIFont.latoLight(size: size)
+        self.lightItalicLabel.font = UIFont.latoItalic(size: size)
         
-        self.regularLabel.font = UIFont.lato(size)
-        self.italicLabel.font = UIFont.latoItalic(size)
+        self.regularLabel.font = UIFont.lato(size: size)
+        self.italicLabel.font = UIFont.latoItalic(size: size)
         
-        self.boldLabel.font = UIFont.latoBold(size)
-        self.boldItalicLabel.font = UIFont.latoBoldItalic(size)
+        self.boldLabel.font = UIFont.latoBold(size: size)
+        self.boldItalicLabel.font = UIFont.latoBoldItalic(size: size)
         
-        self.blackLabel.font = UIFont.latoBlack(size)
-        self.blackItalicLabel.font = UIFont.latoBlackItalic(size)
+        self.blackLabel.font = UIFont.latoBlack(size: size)
+        self.blackItalicLabel.font = UIFont.latoBlackItalic(size: size)
     }
     
     override func didReceiveMemoryWarning() {
