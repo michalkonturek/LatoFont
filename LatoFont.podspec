@@ -9,6 +9,7 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/michalkonturek/LatoFont.git', :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/michalkonturek'
   s.ios.deployment_target = '8.0'
+  s.pod_target_xcconfig = { 'SWIFT_VERSION' => '4.0' }
   s.source_files = 'LatoFont/Classes/**/*'
   s.resource_bundles = {
     'LatoFont' => ['LatoFont/Assets/*.ttf']
