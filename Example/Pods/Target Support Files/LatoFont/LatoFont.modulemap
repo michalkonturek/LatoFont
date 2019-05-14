@@ -1,0 +1,6 @@
+framework module LatoFont {
+  umbrella header "LatoFont-umbrella.h"
+
+  export *
+  module * { export * }
+}

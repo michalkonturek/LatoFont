@@ -1,0 +1,885 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2562C9C9A2BAF163D50F4D157D2BDAD8 /* LatoFont-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C0C13EC3711CABA90FCE22836B6E7BB /* LatoFont-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		27635550CD955C0C352745467098F0A4 /* Lato-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B5FEC235F29E43BCACAAE6ADDBB2F916 /* Lato-LightItalic.ttf */; };
+		27DBC2EDB93B6444D3945A27E950DF2A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7AF639F48630A369AAB591B5B339CC8 /* Foundation.framework */; };
+		2A991C559035AE95C53CF98B7D22406C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7AF639F48630A369AAB591B5B339CC8 /* Foundation.framework */; };
+		46C88DED2E499CB1F6C267C795147D1C /* Lato-HairlineItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 16CF7F1641BFD67826A6EEF52BF8D6D1 /* Lato-HairlineItalic.ttf */; };
+		5DC87FF72509069F484F44A7560D1A2A /* Lato-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 94C5F723DA0598D3A86D0836F2FB7C3B /* Lato-Bold.ttf */; };
+		5F8EEDB47461BF1ABFE4A8226852C771 /* UIFont+Lato.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF722BC651311B1FD6BF2C60FB131F01 /* UIFont+Lato.swift */; };
+		6800E495659BB15CED185F2620C13818 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27BE1AF8CEE8818CBCFD0010AE8BEE51 /* UIKit.framework */; };
+		707C25DB6280E4E1D547B231D5861846 /* Pods-LatoFont_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 42F58C4052EEC5CAAE3A6BD3FD5F70CD /* Pods-LatoFont_Tests-dummy.m */; };
+		8CC33CB2931E0238269C73E9C9BEDA7E /* Lato-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3D6501B42F4C2399FE2E6FA2D6721A73 /* Lato-BlackItalic.ttf */; };
+		943D495FC68D2DDD63B76451B3CB6728 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C55C580E1FC5B6E9F442FE42A9553FEA /* CoreText.framework */; };
+		9A7407F41FF78F928489EF3A38546A47 /* Pods-LatoFont_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C3A4874484467B89D015F0F1E9A2B7C0 /* Pods-LatoFont_Example-dummy.m */; };
+		9E1A1944F11B5069B9D576687312571C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7AF639F48630A369AAB591B5B339CC8 /* Foundation.framework */; };
+		A2B3A590A590F499D12063DF4103D233 /* LatoFont-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C2C377C46D9C0C35F780E599CEFCDCC /* LatoFont-dummy.m */; };
+		C41906949C3BE5F6DACF546776EB7E94 /* Pods-LatoFont_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F716CB972961C1E5B352E346BB4029FB /* Pods-LatoFont_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C934797CF38A5728AAF418DC9800E219 /* LatoFont.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C4A5317E9B98B1AF2AD0D914C8A2C99A /* LatoFont.bundle */; };
+		C95C6B6509DC5313D20818D25F1EED15 /* Lato-Hairline.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3F3CA37A460A7884DF9393983853A521 /* Lato-Hairline.ttf */; };
+		D4FE70BFD50E85863F8753FB17299379 /* Lato-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 874B9AD83598DD82B3B1D5265D0D0A23 /* Lato-BoldItalic.ttf */; };
+		E57B3C5A92B0E073506916CAD6C1CBB2 /* Lato-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 907484E534D162B78F0E5C7624BB01BF /* Lato-Light.ttf */; };
+		EF2A1179A5ED5A1304827023AB7670E2 /* Lato-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 01944F05B7458F6510BB4805E6469B8D /* Lato-Black.ttf */; };
+		F1D08DA52D256B0A281147AFA85A7971 /* Lato-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CD454FDFE59BEEA6836BC6962ED50A78 /* Lato-Regular.ttf */; };
+		F2D4E266AC7EBC1432351A085948FC06 /* Pods-LatoFont_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FA5AF02D6120207FFD20F34D2EB113F /* Pods-LatoFont_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F5F625C4BBF9C41A50EF22937F5E6491 /* Lato-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BD30C197F03DAFBAEA3A353A0F85E870 /* Lato-Italic.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CF13A1803C2F65AE9BC26880DEA39208 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4BBB66F976608C51C4144ADE3CC28519;
+			remoteInfo = LatoFont;
+		};
+		D38E463E314F1C7E8959964FCFD60E23 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D00726B546E3416F0217602EC734146;
+			remoteInfo = "LatoFont-LatoFont";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01944F05B7458F6510BB4805E6469B8D /* Lato-Black.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "Lato-Black.ttf"; path = "LatoFont/Assets/Lato-Black.ttf"; sourceTree = "<group>"; };
+		0300DD5E20E4F0203C049092B31FF5C6 /* Pods-LatoFont_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-LatoFont_Example.modulemap"; sourceTree = "<group>"; };
+		0D8E21DFE8209D37217C3EDCC77139B3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16CF7F1641BFD67826A6EEF52BF8D6D1 /* Lato-HairlineItalic.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "Lato-HairlineItalic.ttf"; path = "LatoFont/Assets/Lato-HairlineItalic.ttf"; sourceTree = "<group>"; };
+		27BE1AF8CEE8818CBCFD0010AE8BEE51 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		2A3F26572FC81924C3489424BF1BF8CE /* Pods-LatoFont_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LatoFont_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		2B8C4DE28F6829F1823DFF1ADAE17886 /* LatoFont.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LatoFont.xcconfig; sourceTree = "<group>"; };
+		3D6501B42F4C2399FE2E6FA2D6721A73 /* Lato-BlackItalic.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "Lato-BlackItalic.ttf"; path = "LatoFont/Assets/Lato-BlackItalic.ttf"; sourceTree = "<group>"; };
+		3EA2992552FBD61B1D9616194E8CF687 /* Pods-LatoFont_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LatoFont_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		3F3CA37A460A7884DF9393983853A521 /* Lato-Hairline.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "Lato-Hairline.ttf"; path = "LatoFont/Assets/Lato-Hairline.ttf"; sourceTree = "<group>"; };
+		42F58C4052EEC5CAAE3A6BD3FD5F70CD /* Pods-LatoFont_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LatoFont_Tests-dummy.m"; sourceTree = "<group>"; };
+		4C2C377C46D9C0C35F780E599CEFCDCC /* LatoFont-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LatoFont-dummy.m"; sourceTree = "<group>"; };
+		56CB85D94DD40BB6621DCAE6FBFEB2DB /* Pods-LatoFont_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LatoFont_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		57C8BB8DD4D58149814C37CF3B885A14 /* Pods-LatoFont_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LatoFont_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		58B9CB26FC73FD75D630F1E82CDA58BD /* Pods-LatoFont_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LatoFont_Tests-resources.sh"; sourceTree = "<group>"; };
+		5C0C13EC3711CABA90FCE22836B6E7BB /* LatoFont-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LatoFont-umbrella.h"; sourceTree = "<group>"; };
+		5FCB5B2388048535CA8B8B045413974A /* ResourceBundle-LatoFont-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-LatoFont-Info.plist"; sourceTree = "<group>"; };
+		644B4D1DADFFA1EBCFF69F92FC654E38 /* Pods-LatoFont_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LatoFont_Example-resources.sh"; sourceTree = "<group>"; };
+		6FA5AF02D6120207FFD20F34D2EB113F /* Pods-LatoFont_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LatoFont_Tests-umbrella.h"; sourceTree = "<group>"; };
+		7031733A765CFCD76F14349405EF7813 /* LatoFont-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LatoFont-prefix.pch"; sourceTree = "<group>"; };
+		874B9AD83598DD82B3B1D5265D0D0A23 /* Lato-BoldItalic.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "Lato-BoldItalic.ttf"; path = "LatoFont/Assets/Lato-BoldItalic.ttf"; sourceTree = "<group>"; };
+		8BCF73370011A15CB793F72E975B7B4D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		907484E534D162B78F0E5C7624BB01BF /* Lato-Light.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "Lato-Light.ttf"; path = "LatoFont/Assets/Lato-Light.ttf"; sourceTree = "<group>"; };
+		929D8E614F7BB28773984CFF20F70BD5 /* Pods-LatoFont_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-LatoFont_Tests.modulemap"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94C5F723DA0598D3A86D0836F2FB7C3B /* Lato-Bold.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "Lato-Bold.ttf"; path = "LatoFont/Assets/Lato-Bold.ttf"; sourceTree = "<group>"; };
+		9D55FA6244127D0DE3198E92818A0A98 /* Pods-LatoFont_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LatoFont_Example.release.xcconfig"; sourceTree = "<group>"; };
+		A61FB83922B03765603A3FC5BBB6D525 /* Pods-LatoFont_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LatoFont_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		A7AF639F48630A369AAB591B5B339CC8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		A8F7A665A32AC343AB9D6B8756EE2F93 /* Pods-LatoFont_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LatoFont_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		ACF6FB458D4E13B7B25175355A06E347 /* Pods_LatoFont_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LatoFont_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF722BC651311B1FD6BF2C60FB131F01 /* UIFont+Lato.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIFont+Lato.swift"; path = "LatoFont/Classes/UIFont+Lato.swift"; sourceTree = "<group>"; };
+		B516E9F52E0961D75056BB9C3C198829 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5FEC235F29E43BCACAAE6ADDBB2F916 /* Lato-LightItalic.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "Lato-LightItalic.ttf"; path = "LatoFont/Assets/Lato-LightItalic.ttf"; sourceTree = "<group>"; };
+		BD30C197F03DAFBAEA3A353A0F85E870 /* Lato-Italic.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "Lato-Italic.ttf"; path = "LatoFont/Assets/Lato-Italic.ttf"; sourceTree = "<group>"; };
+		C3A4874484467B89D015F0F1E9A2B7C0 /* Pods-LatoFont_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LatoFont_Example-dummy.m"; sourceTree = "<group>"; };
+		C4A5317E9B98B1AF2AD0D914C8A2C99A /* LatoFont.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LatoFont.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		C55C580E1FC5B6E9F442FE42A9553FEA /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreText.framework; sourceTree = DEVELOPER_DIR; };
+		CD454FDFE59BEEA6836BC6962ED50A78 /* Lato-Regular.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "Lato-Regular.ttf"; path = "LatoFont/Assets/Lato-Regular.ttf"; sourceTree = "<group>"; };
+		E3E53D50C4148BF5C6217EEC215FD1E3 /* Pods-LatoFont_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LatoFont_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		EE9CA0A716662DA576A1BA5CCB30AEDF /* Pods_LatoFont_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LatoFont_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F716CB972961C1E5B352E346BB4029FB /* Pods-LatoFont_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LatoFont_Example-umbrella.h"; sourceTree = "<group>"; };
+		F795A58C1EC94416DD24A5F3E6425D03 /* LatoFont.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LatoFont.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA2666B84DBC680400932B627B4EC3CC /* LatoFont.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = LatoFont.modulemap; sourceTree = "<group>"; };
+		FA7D150BFD6DDE6F3784FD384FA946C1 /* Pods-LatoFont_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LatoFont_Example-frameworks.sh"; sourceTree = "<group>"; };
+		FE881C1F5464C940801F9EE3EE549D5C /* Pods-LatoFont_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LatoFont_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1745E8BD773088FCC870D42259C45E13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A991C559035AE95C53CF98B7D22406C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		314CEC2F4ACA35A7BE7090474B091187 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				943D495FC68D2DDD63B76451B3CB6728 /* CoreText.framework in Frameworks */,
+				27DBC2EDB93B6444D3945A27E950DF2A /* Foundation.framework in Frameworks */,
+				6800E495659BB15CED185F2620C13818 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8167E88735E9DE9A642CD668E8C1D1E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD79BFC514D02F4A3454D5521CB555DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E1A1944F11B5069B9D576687312571C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FF1CA95E532A8F990E19506982FA04EE /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		21318F65AA572C04CDD905843DE96CF1 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF4EA5B9E981EDBF247EB41F3B38390D /* Pods-LatoFont_Example */,
+				5658F6701420B4E71484702E1E5A8C34 /* Pods-LatoFont_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		435D7B0F0D2417589A28A12C620ADA7B /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				67AF4A9E7B570536B81EC71879E9B303 /* LatoFont */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		5658F6701420B4E71484702E1E5A8C34 /* Pods-LatoFont_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				8BCF73370011A15CB793F72E975B7B4D /* Info.plist */,
+				929D8E614F7BB28773984CFF20F70BD5 /* Pods-LatoFont_Tests.modulemap */,
+				56CB85D94DD40BB6621DCAE6FBFEB2DB /* Pods-LatoFont_Tests-acknowledgements.markdown */,
+				A61FB83922B03765603A3FC5BBB6D525 /* Pods-LatoFont_Tests-acknowledgements.plist */,
+				42F58C4052EEC5CAAE3A6BD3FD5F70CD /* Pods-LatoFont_Tests-dummy.m */,
+				A8F7A665A32AC343AB9D6B8756EE2F93 /* Pods-LatoFont_Tests-frameworks.sh */,
+				58B9CB26FC73FD75D630F1E82CDA58BD /* Pods-LatoFont_Tests-resources.sh */,
+				6FA5AF02D6120207FFD20F34D2EB113F /* Pods-LatoFont_Tests-umbrella.h */,
+				E3E53D50C4148BF5C6217EEC215FD1E3 /* Pods-LatoFont_Tests.debug.xcconfig */,
+				2A3F26572FC81924C3489424BF1BF8CE /* Pods-LatoFont_Tests.release.xcconfig */,
+			);
+			name = "Pods-LatoFont_Tests";
+			path = "Target Support Files/Pods-LatoFont_Tests";
+			sourceTree = "<group>";
+		};
+		67AF4A9E7B570536B81EC71879E9B303 /* LatoFont */ = {
+			isa = PBXGroup;
+			children = (
+				AF722BC651311B1FD6BF2C60FB131F01 /* UIFont+Lato.swift */,
+				841583C0BCE83E2BC754B8B94A985E3A /* Resources */,
+				7BA75634BC24D3448404A1DA4FFA1A51 /* Support Files */,
+			);
+			name = LatoFont;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		7BA75634BC24D3448404A1DA4FFA1A51 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0D8E21DFE8209D37217C3EDCC77139B3 /* Info.plist */,
+				FA2666B84DBC680400932B627B4EC3CC /* LatoFont.modulemap */,
+				2B8C4DE28F6829F1823DFF1ADAE17886 /* LatoFont.xcconfig */,
+				4C2C377C46D9C0C35F780E599CEFCDCC /* LatoFont-dummy.m */,
+				7031733A765CFCD76F14349405EF7813 /* LatoFont-prefix.pch */,
+				5C0C13EC3711CABA90FCE22836B6E7BB /* LatoFont-umbrella.h */,
+				5FCB5B2388048535CA8B8B045413974A /* ResourceBundle-LatoFont-Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/LatoFont";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				435D7B0F0D2417589A28A12C620ADA7B /* Development Pods */,
+				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
+				92924417A2F8F8B9928DD5288B75CC56 /* Products */,
+				21318F65AA572C04CDD905843DE96CF1 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		841583C0BCE83E2BC754B8B94A985E3A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				01944F05B7458F6510BB4805E6469B8D /* Lato-Black.ttf */,
+				3D6501B42F4C2399FE2E6FA2D6721A73 /* Lato-BlackItalic.ttf */,
+				94C5F723DA0598D3A86D0836F2FB7C3B /* Lato-Bold.ttf */,
+				874B9AD83598DD82B3B1D5265D0D0A23 /* Lato-BoldItalic.ttf */,
+				3F3CA37A460A7884DF9393983853A521 /* Lato-Hairline.ttf */,
+				16CF7F1641BFD67826A6EEF52BF8D6D1 /* Lato-HairlineItalic.ttf */,
+				BD30C197F03DAFBAEA3A353A0F85E870 /* Lato-Italic.ttf */,
+				907484E534D162B78F0E5C7624BB01BF /* Lato-Light.ttf */,
+				B5FEC235F29E43BCACAAE6ADDBB2F916 /* Lato-LightItalic.ttf */,
+				CD454FDFE59BEEA6836BC6962ED50A78 /* Lato-Regular.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		92924417A2F8F8B9928DD5288B75CC56 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C4A5317E9B98B1AF2AD0D914C8A2C99A /* LatoFont.bundle */,
+				F795A58C1EC94416DD24A5F3E6425D03 /* LatoFont.framework */,
+				EE9CA0A716662DA576A1BA5CCB30AEDF /* Pods_LatoFont_Example.framework */,
+				ACF6FB458D4E13B7B25175355A06E347 /* Pods_LatoFont_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF4EA5B9E981EDBF247EB41F3B38390D /* Pods-LatoFont_Example */ = {
+			isa = PBXGroup;
+			children = (
+				B516E9F52E0961D75056BB9C3C198829 /* Info.plist */,
+				0300DD5E20E4F0203C049092B31FF5C6 /* Pods-LatoFont_Example.modulemap */,
+				57C8BB8DD4D58149814C37CF3B885A14 /* Pods-LatoFont_Example-acknowledgements.markdown */,
+				FE881C1F5464C940801F9EE3EE549D5C /* Pods-LatoFont_Example-acknowledgements.plist */,
+				C3A4874484467B89D015F0F1E9A2B7C0 /* Pods-LatoFont_Example-dummy.m */,
+				FA7D150BFD6DDE6F3784FD384FA946C1 /* Pods-LatoFont_Example-frameworks.sh */,
+				644B4D1DADFFA1EBCFF69F92FC654E38 /* Pods-LatoFont_Example-resources.sh */,
+				F716CB972961C1E5B352E346BB4029FB /* Pods-LatoFont_Example-umbrella.h */,
+				3EA2992552FBD61B1D9616194E8CF687 /* Pods-LatoFont_Example.debug.xcconfig */,
+				9D55FA6244127D0DE3198E92818A0A98 /* Pods-LatoFont_Example.release.xcconfig */,
+			);
+			name = "Pods-LatoFont_Example";
+			path = "Target Support Files/Pods-LatoFont_Example";
+			sourceTree = "<group>";
+		};
+		FF1CA95E532A8F990E19506982FA04EE /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				C55C580E1FC5B6E9F442FE42A9553FEA /* CoreText.framework */,
+				A7AF639F48630A369AAB591B5B339CC8 /* Foundation.framework */,
+				27BE1AF8CEE8818CBCFD0010AE8BEE51 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		09DBFF0709B4EC98C91879FAC91C790E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2D4E266AC7EBC1432351A085948FC06 /* Pods-LatoFont_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51FEE03B1D8641DD2824D2B859FD3F00 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C41906949C3BE5F6DACF546776EB7E94 /* Pods-LatoFont_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6948CA928407CF162F062EDBC7EF32A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2562C9C9A2BAF163D50F4D157D2BDAD8 /* LatoFont-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		036D9A10547853EF3C2DD01B6D281EA9 /* Pods-LatoFont_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 230BB9CC738C05D76D5162EDAFF57E83 /* Build configuration list for PBXNativeTarget "Pods-LatoFont_Tests" */;
+			buildPhases = (
+				B1A20143FF04D758C91729D201BBBC93 /* Sources */,
+				1745E8BD773088FCC870D42259C45E13 /* Frameworks */,
+				09DBFF0709B4EC98C91879FAC91C790E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-LatoFont_Tests";
+			productName = "Pods-LatoFont_Tests";
+			productReference = ACF6FB458D4E13B7B25175355A06E347 /* Pods_LatoFont_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		2D00726B546E3416F0217602EC734146 /* LatoFont-LatoFont */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E42BD8851BAF466231F88375F49F8214 /* Build configuration list for PBXNativeTarget "LatoFont-LatoFont" */;
+			buildPhases = (
+				A16396D0087107F3A06DDECDE94E7072 /* Sources */,
+				8167E88735E9DE9A642CD668E8C1D1E7 /* Frameworks */,
+				5BBBD7F596A169FCC937DF11896CDB50 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LatoFont-LatoFont";
+			productName = "LatoFont-LatoFont";
+			productReference = C4A5317E9B98B1AF2AD0D914C8A2C99A /* LatoFont.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		4BBB66F976608C51C4144ADE3CC28519 /* LatoFont */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81C7366C895E5297E6D13562E35161D2 /* Build configuration list for PBXNativeTarget "LatoFont" */;
+			buildPhases = (
+				D3388D5609540541D759EB8453F99CEC /* Sources */,
+				314CEC2F4ACA35A7BE7090474B091187 /* Frameworks */,
+				346FB202506111BAFB7B532131DA9A1C /* Resources */,
+				D6948CA928407CF162F062EDBC7EF32A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AADD36AC5657EE8EBA0E0EEDEB9A660F /* PBXTargetDependency */,
+			);
+			name = LatoFont;
+			productName = LatoFont;
+			productReference = F795A58C1EC94416DD24A5F3E6425D03 /* LatoFont.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C272B8DEC4FCA7C160F088DE6F39B7C6 /* Pods-LatoFont_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42AFB2F8E3830139E3DFED1AC9721FE7 /* Build configuration list for PBXNativeTarget "Pods-LatoFont_Example" */;
+			buildPhases = (
+				46F4B4E8031EDDA44FFA79A4203ED45B /* Sources */,
+				DD79BFC514D02F4A3454D5521CB555DA /* Frameworks */,
+				51FEE03B1D8641DD2824D2B859FD3F00 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7154A15AF915DDC0EF6D1B127DADE112 /* PBXTargetDependency */,
+			);
+			name = "Pods-LatoFont_Example";
+			productName = "Pods-LatoFont_Example";
+			productReference = EE9CA0A716662DA576A1BA5CCB30AEDF /* Pods_LatoFont_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0920;
+				TargetAttributes = {
+					4BBB66F976608C51C4144ADE3CC28519 = {
+						LastSwiftMigration = 0920;
+					};
+				};
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 92924417A2F8F8B9928DD5288B75CC56 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4BBB66F976608C51C4144ADE3CC28519 /* LatoFont */,
+				2D00726B546E3416F0217602EC734146 /* LatoFont-LatoFont */,
+				C272B8DEC4FCA7C160F088DE6F39B7C6 /* Pods-LatoFont_Example */,
+				036D9A10547853EF3C2DD01B6D281EA9 /* Pods-LatoFont_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		346FB202506111BAFB7B532131DA9A1C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C934797CF38A5728AAF418DC9800E219 /* LatoFont.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BBBD7F596A169FCC937DF11896CDB50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF2A1179A5ED5A1304827023AB7670E2 /* Lato-Black.ttf in Resources */,
+				8CC33CB2931E0238269C73E9C9BEDA7E /* Lato-BlackItalic.ttf in Resources */,
+				5DC87FF72509069F484F44A7560D1A2A /* Lato-Bold.ttf in Resources */,
+				D4FE70BFD50E85863F8753FB17299379 /* Lato-BoldItalic.ttf in Resources */,
+				C95C6B6509DC5313D20818D25F1EED15 /* Lato-Hairline.ttf in Resources */,
+				46C88DED2E499CB1F6C267C795147D1C /* Lato-HairlineItalic.ttf in Resources */,
+				F5F625C4BBF9C41A50EF22937F5E6491 /* Lato-Italic.ttf in Resources */,
+				E57B3C5A92B0E073506916CAD6C1CBB2 /* Lato-Light.ttf in Resources */,
+				27635550CD955C0C352745467098F0A4 /* Lato-LightItalic.ttf in Resources */,
+				F1D08DA52D256B0A281147AFA85A7971 /* Lato-Regular.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		46F4B4E8031EDDA44FFA79A4203ED45B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A7407F41FF78F928489EF3A38546A47 /* Pods-LatoFont_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A16396D0087107F3A06DDECDE94E7072 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1A20143FF04D758C91729D201BBBC93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				707C25DB6280E4E1D547B231D5861846 /* Pods-LatoFont_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3388D5609540541D759EB8453F99CEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2B3A590A590F499D12063DF4103D233 /* LatoFont-dummy.m in Sources */,
+				5F8EEDB47461BF1ABFE4A8226852C771 /* UIFont+Lato.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7154A15AF915DDC0EF6D1B127DADE112 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LatoFont;
+			target = 4BBB66F976608C51C4144ADE3CC28519 /* LatoFont */;
+			targetProxy = CF13A1803C2F65AE9BC26880DEA39208 /* PBXContainerItemProxy */;
+		};
+		AADD36AC5657EE8EBA0E0EEDEB9A660F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "LatoFont-LatoFont";
+			target = 2D00726B546E3416F0217602EC734146 /* LatoFont-LatoFont */;
+			targetProxy = D38E463E314F1C7E8959964FCFD60E23 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		01B0B059D35196C11F41AB00D20C4201 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B8C4DE28F6829F1823DFF1ADAE17886 /* LatoFont.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LatoFont/LatoFont-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LatoFont/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LatoFont/LatoFont.modulemap";
+				PRODUCT_NAME = LatoFont;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1CDAB5613991E411E5990BAF694995C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		461BC28512A0F73813142E1BB186BECC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B8C4DE28F6829F1823DFF1ADAE17886 /* LatoFont.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/LatoFont";
+				INFOPLIST_FILE = "Target Support Files/LatoFont/ResourceBundle-LatoFont-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = LatoFont;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		4FBD88F46F3B93CDBDA954FC0573C337 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D55FA6244127D0DE3198E92818A0A98 /* Pods-LatoFont_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LatoFont_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LatoFont_Example/Pods-LatoFont_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_LatoFont_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		59779972C2982D61769F4AAAB9AF90E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B8C4DE28F6829F1823DFF1ADAE17886 /* LatoFont.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/LatoFont";
+				INFOPLIST_FILE = "Target Support Files/LatoFont/ResourceBundle-LatoFont-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = LatoFont;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		60D389387BD6825581E59315C972E0E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A3F26572FC81924C3489424BF1BF8CE /* Pods-LatoFont_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LatoFont_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LatoFont_Tests/Pods-LatoFont_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_LatoFont_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7B62A85C412D689EF418FA67DA770A41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		81C725C91E93161B9417CBFDDAB3F3A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B8C4DE28F6829F1823DFF1ADAE17886 /* LatoFont.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LatoFont/LatoFont-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LatoFont/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LatoFont/LatoFont.modulemap";
+				PRODUCT_NAME = LatoFont;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BEF23AACC1980DA59AA807A9243B5611 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3E53D50C4148BF5C6217EEC215FD1E3 /* Pods-LatoFont_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LatoFont_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LatoFont_Tests/Pods-LatoFont_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_LatoFont_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EC576BFC29B94C5A77BB35234841AEB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3EA2992552FBD61B1D9616194E8CF687 /* Pods-LatoFont_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LatoFont_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LatoFont_Example/Pods-LatoFont_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_LatoFont_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		230BB9CC738C05D76D5162EDAFF57E83 /* Build configuration list for PBXNativeTarget "Pods-LatoFont_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEF23AACC1980DA59AA807A9243B5611 /* Debug */,
+				60D389387BD6825581E59315C972E0E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CDAB5613991E411E5990BAF694995C5 /* Debug */,
+				7B62A85C412D689EF418FA67DA770A41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42AFB2F8E3830139E3DFED1AC9721FE7 /* Build configuration list for PBXNativeTarget "Pods-LatoFont_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC576BFC29B94C5A77BB35234841AEB7 /* Debug */,
+				4FBD88F46F3B93CDBDA954FC0573C337 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81C7366C895E5297E6D13562E35161D2 /* Build configuration list for PBXNativeTarget "LatoFont" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01B0B059D35196C11F41AB00D20C4201 /* Debug */,
+				81C725C91E93161B9417CBFDDAB3F3A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E42BD8851BAF466231F88375F49F8214 /* Build configuration list for PBXNativeTarget "LatoFont-LatoFont" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				461BC28512A0F73813142E1BB186BECC /* Debug */,
+				59779972C2982D61769F4AAAB9AF90E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
